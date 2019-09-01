@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--styling-->
+    <style type="text/css">
+       .brand-font {
+           font-family: 'Serif';
+       }
+
+       .my-card-header > h4 {
+           font-family: 'Serif';          
+       }
+       .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            line-height: 60px;
+            background-color: #f5f5f5;
+            border-top-width: 3px !important;
+            border-top-style: solid;
+        }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bootsrap Visualization  Dashboard</title>
+  </head>
+  <body class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+        <a class="brand-font ml-5 bg-info text-white font-weight-bolder navbar-brand p-2" href="landing.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="maxtemperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="#">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-7">
+            <div class="row">
+              <div class="my-card bg-white m-4">
+                <div class="my-card-header">
+                  <h4 class="px-3 pt-3 text-info font-weight-bold">Max Temperature</h4>
+                  <hr class="mx-3" />
+                </div>
+                <div class="my-card-body">
+                  <div>
+                    <img class="ml-3" width="400" height="300" src="Resources/assets/images/Fig1.png" class="mr-3" alt="Latitude Image">
+                  </div>
+                  <p class="p-3">
+                    As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemishere tends to be warmer thi stime of the year than the northern hemishere. This may be due to the tilt of the earth at the time of the year data was gathered.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="row">
+              <div class="my-card bg-white m-4">
+                <div class="my-card-header">
+                  <h4 class="px-3 pt-3 text-info font-weight-bold">Visualizations</h4>
+                  <hr class="mx-3" />
+                </div>
+                <div class="my-card-body">
+                  <div class="row">
+                    <div class="col">
+                      <img class="ml-2 border border-info" width="150" height="150" src="Resources/assets/images/Fig1.png" class="mr-3" alt="Latitude Image">
+                    </div>
+                    <div class="col">
+                      <img class="ml-2" width="150" height="150" src="Resources/assets/images/Fig2.png" class="mr-3" alt="Latitude Image">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <img class="ml-2" width="150" height="150" src="Resources/assets/images/Fig3.png" class="mr-3" alt="Latitude Image">
+                    </div>
+                    <div class="col">
+                      <img class="ml-2" width="150" height="150" src="Resources/assets/images/Fig4.png" class="mr-3" alt="Latitude Image">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer bg-secondary text-white border-info border-top-5 border-right-0 border-left-0 border-bottom-0">
+        <h6 class="text-center mt-3">&copy;Copyright Coding Bootcamp 2019</h6>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
