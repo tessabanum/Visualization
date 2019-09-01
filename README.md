@@ -1,6 +1,6 @@
 # Unit 11 | Assignment - Web Visualization Dashboard (Latitude)
 
-![https://tessabanum.github.io/Visualization/index.html](My PAGE)
+![My Page, Click here](https://tessabanum.github.io/Visualization/index.html)
 
 ## Background
 
